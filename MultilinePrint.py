@@ -1,0 +1,36 @@
+print("""sdsidsjiddsfdsfdsf
+	dfdsfdfdsf
+	df
+	d
+	f
+	dsf
+	ds
+	f
+	sdf
+	ds
+	f
+	dsf
+	""")
+print('''sdsdsdsdsdds
+	d
+	sdsd
+	s'd
+	sad
+	s
+	ds
+	dsadsd
+	s
+	ds
+	ds''')
+print("""'''sdsdsdsdsdsdsd
+	sd
+	s
+	ds
+	d
+	sd
+	s
+	ds
+	d
+	sd
+	sd
+	sd'''""")
