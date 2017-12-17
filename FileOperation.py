@@ -1,20 +1,20 @@
 
-Qute = "Sabra ka fal mitha hota hai \n"
+Quote = "Sabra ka fal mitha hota hai \n"
 
 """Write into file if not availabel create New one"""
 
-FileOprationCreateAdd = open("Qute.txt","w")
+FileOprationCreateAdd = open("Quote.txt","w")
 
-FileOprationCreateAdd.write(Qute)
+FileOprationCreateAdd.write(Quote)
 FileOprationCreateAdd.close()
 
 """This is to append inforamtion"""
 
-Qute1= "Also things happens for good \n"
+Quote1= "Also things happens for good \n"
 
-FileOprationAppend = open("Qute.txt","a")
+FileOprationAppend = open("Quote.txt","a")
 
-FileOprationAppend.write(Qute1)
+FileOprationAppend.write(Quote1)
 
 FileOprationAppend.close()
 
@@ -23,7 +23,7 @@ FileOprationAppend.close()
 
 # read as List
 
-FileOperationRead = open("Qute.txt","r").readlines()
+FileOperationRead = open("Quote.txt","r").readlines()
 
 print(FileOperationRead)
 
@@ -31,6 +31,6 @@ print(FileOperationRead)
 
 # read as Line
 
-FileOperationRead = open("Qute.txt","r").read()
+FileOperationRead = open("Quote.txt","r").read()
 
 print(FileOperationRead)
